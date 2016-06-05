@@ -9,15 +9,13 @@ package com.jiaxy.enjoyjava8;
  *
  * @author <a href=mailto:taobaorun@gmail.com>taobaorun</a>
  *         <br>
- * @since 2016/06/04 16:39
+ * @since 2016/06/05 19:36
  */
-public class Student {
+public class Course {
 
     private String name;
 
-    private int age;
-
-    private int gender;
+    private double score;
 
     public String getName() {
         return name;
@@ -27,19 +25,11 @@ public class Student {
         this.name = name;
     }
 
-    public int getAge() {
-        return age;
+    public double getScore() {
+        return score;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public int getGender() {
-        return gender;
-    }
-
-    public void setGender(int gender) {
-        this.gender = gender;
+    public void setScore(double score) {
+        this.score = score;
     }
 }
